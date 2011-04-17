@@ -14,6 +14,13 @@ projects[pressflow][download][type] = "get"
 projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-current.tar.gz"
 
 ; =======================
+; Open Atrium Install profile
+; =======================
+projects[openatrium][type] = "profile"
+projects[openatrium][download][type] = "git"
+projects[openatrium][download][url] = "http://git.drupal.org/project/openatrium.git"
+
+; =======================
 ; Contrib projects 
 ; =======================
 
