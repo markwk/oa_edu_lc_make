@@ -11,9 +11,9 @@ projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-cur
 ; =======================
 ; Profile 
 ; =======================
-projects[edu_openatrium][type] = "profile"
-projects[edu_openatrium][download][type] = "git"
-projects[edu_openatrium][download][url] = "git://github.com/markwk/edu_openatrium.git"
+projects[openatrium][type] = "profile"
+projects[openatrium][download][type] = "git"
+projects[openatrium][download][url] = "git://github.com/markwk/openatrium.git"
 
 ; =======================
 ; Contrib projects 
@@ -277,7 +277,7 @@ projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.3"
 
 ; Custom modules
-projects[litecal][location] = "http://featureserver.phase2technology.com/fserver"
+projects[litecal][subdir] = "custom"
 projects[litecal][version] = "1.0-alpha5"
 projects[litecal][location][download][type] = "git"
 projects[litecal][download][url] = "git://github.com/phase2/litecal.git"
@@ -314,8 +314,6 @@ projects[upgrade_status][subdir] = "developer"
 ;  ===================================
 ; Features
 ;  ===================================
-; projects[atrium_features][location] = "http://featureserver.phase2technology.com/fserver"
-; projects[atrium_features][version] = "1.0-alpha11"
 projects[atrium_features][type] = "module"
 projects[atrium_features][download][type] = "git"
 projects[atrium_features][download][url] = "git://github.com/markwk/atrium_features.git"
