@@ -278,7 +278,6 @@ projects[wysiwyg][version] = "2.3"
 
 ; Custom modules
 projects[litecal][subdir] = "custom"
-projects[litecal][version] = "1.0-alpha5"
 projects[litecal][location][download][type] = "git"
 projects[litecal][download][url] = "git://github.com/phase2/litecal.git"
 
@@ -289,7 +288,6 @@ projects[feedapi2feeds][download][url] = "git://github.com/phase2/feedapi2feeds.
 
 projects[xref][subdir] = "custom"
 projects[xref][location] = "http://featureserver.phase2technology.com/fserver"
-projects[xref][version] = "1.0-alpha2"
 projects[xref][location][download][type] = "git"
 projects[xref][download][url] = "git://github.com/phase2/xref.git"
 
