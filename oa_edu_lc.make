@@ -1,8 +1,4 @@
-; =======================
-; An Open Atrium Edu Site
-; With Features for Communication, Learning, Sharing and Social Interaction
-; =======================
-
+; $Id$
 core = "6.x"
 api = "2"
 
@@ -14,11 +10,11 @@ projects[pressflow][download][type] = "get"
 projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-current.tar.gz"
 
 ; =======================
-; Open Atrium Install profile
+; Profile 
 ; =======================
-projects[openatrium][type] = "profile"
-projects[openatrium][download][type] = "git"
-projects[openatrium][download][url] = "http://git.drupal.org/project/openatrium.git"
+projects[edu_openatrium][type] = "profile"
+projects[edu_openatrium][download][type] = "git"
+projects[edu_openatrium][download][url] = "git://github.com/markwk/edu_openatrium.git"
 
 ; =======================
 ; Contrib projects 
@@ -32,6 +28,9 @@ projects[admin_menu][version] = "1.6"
 
 projects[apachesolr][subdir] = "contrib"
 projects[apachesolr][version] = "1.2"
+
+projects[apachesolr_attachments][subdir] = "contrib"
+projects[apachesolr_attachments][version] = "2.x-dev"
 
 libraries[SolrPhpClient][download][type] = "get"
 libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r22.2009-11-09.tgz"
@@ -194,7 +193,7 @@ projects[og][subdir] = "contrib"
 projects[og][version] = "2.1"
 
 projects[outline_designer][subdir] = contrib
-projects[outline_designer][version] = "1.2"
+projects[outline_designer][version] = "1.3"
 
 projects[openidadmin][subdir] = "contrib"
 projects[openidadmin][version] = "1.2"
@@ -300,7 +299,9 @@ projects[simpletest][download][revision] = "DRUPAL-6--2:2010-01-27"
 
 projects[upgrade_status][subdir] = "developer"
 
+;  ===================================
 ; Features
+;  ===================================
 ; projects[atrium_features][location] = "http://featureserver.phase2technology.com/fserver"
 ; projects[atrium_features][version] = "1.0-alpha11"
 projects[atrium_features][subdir] = "atrium_features"
@@ -313,7 +314,9 @@ projects[lc_features][type] = "module"
 projects[lc_features][download][type] = "git"
 projects[lc_features][download][url] = "git://github.com/markwk/lc_features.git"
 
+;  ===================================
 ; l10n
+;  ===================================
 projects[core_translation][subdir] = "l10n"
 projects[core_translation][type] = "module"
 projects[core_translation][download][type] = "cvs"
@@ -372,9 +375,6 @@ projects[expire][version] = "1.x-dev"
 projects[authcache][subdir] = "performance"
 projects[authcache][version] = "1.x-dev"
 
-projects[memcache][subdir] = "performance"
-projects[memcache][version] = "1.8"
-
 projects[views_content_cache][subdir] = "performance"
 projects[views_content_cache][version] = "2.x-dev"
 
@@ -415,7 +415,7 @@ libraries[phpmailer][download][url] = "http://kent.dl.sourceforge.net/project/ph
 libraries[phpmailer][directory_name] = "phpmailer"
 
 ; Translations for openatrium install profile
-libraries[translations][download][type] = "get"
-libraries[translations][download][url] = "https://translate.openatrium.com/sites/translate.openatrium.com/files/atrium-installer-beta9.tar.gz"
-libraries[translations][directory_name] = "translations"
-libraries[translations][destination] = "."
+; libraries[translations][download][type] = "get"
+; libraries[translations][download][url] = "https://translate.openatrium.com/sites/translate.openatrium.com/files/atrium-installer-beta9.tar.gz"
+; libraries[translations][directory_name] = "translations"
+; libraries[translations][destination] = "."
