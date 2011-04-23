@@ -277,17 +277,18 @@ projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.3"
 
 ; Custom modules
+projects[litecal][type] = "module"
 projects[litecal][subdir] = "custom"
 projects[litecal][location][download][type] = "git"
 projects[litecal][download][url] = "git://github.com/phase2/litecal.git"
 
-projects[feedapi2feeds][subdir] = "custom"
 projects[feedapi2feeds][type] = "module"
+projects[feedapi2feeds][subdir] = "custom"
 projects[feedapi2feeds][location][download][type] = "git"
 projects[feedapi2feeds][download][url] = "git://github.com/phase2/feedapi2feeds.git"
 
+projects[xref][type] = "module"
 projects[xref][subdir] = "custom"
-projects[xref][location] = "http://featureserver.phase2technology.com/fserver"
 projects[xref][location][download][type] = "git"
 projects[xref][download][url] = "git://github.com/phase2/xref.git"
 
