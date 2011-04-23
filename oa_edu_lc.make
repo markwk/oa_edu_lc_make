@@ -10,13 +10,6 @@ projects[pressflow][download][type] = "get"
 projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-current.tar.gz"
 
 ; =======================
-; Profile 
-; =======================
-projects[edu_openatrium][type] = "profile"
-projects[edu_openatrium][download][type] = "git"
-projects[edu_openatrium][download][url] = "git://github.com/markwk/edu_openatrium.git"
-
-; =======================
 ; Contrib projects 
 ; =======================
 
@@ -419,3 +412,10 @@ libraries[phpmailer][directory_name] = "phpmailer"
 ; libraries[translations][download][url] = "https://translate.openatrium.com/sites/translate.openatrium.com/files/atrium-installer-beta9.tar.gz"
 ; libraries[translations][directory_name] = "translations"
 ; libraries[translations][destination] = "."
+
+; =======================
+; Profile 
+; =======================
+projects[edu_openatrium][type] = "profile"
+projects[edu_openatrium][download][type] = "git"
+projects[edu_openatrium][download][url] = "git://github.com/markwk/edu_openatrium.git"
