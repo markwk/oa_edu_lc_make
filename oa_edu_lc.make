@@ -1,4 +1,3 @@
-; $Id$
 core = "6.x"
 api = "2"
 
@@ -8,6 +7,13 @@ api = "2"
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "get"
 projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-current.tar.gz"
+
+; =======================
+; Profile 
+; =======================
+projects[edu_openatrium][type] = "profile"
+projects[edu_openatrium][download][type] = "git"
+projects[edu_openatrium][download][url] = "git://github.com/markwk/edu_openatrium.git"
 
 ; =======================
 ; Contrib projects 
@@ -96,6 +102,9 @@ projects[features][version] = "1.0"
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "1.0-beta10"
 
+projects[filefield_sources][subdir] = "contrib"
+projects[filefield_sources][version] = "1.2"
+
 projects[fivestar][subdir] = "contrib"
 projects[fivestar][version] = "1.19"
 
@@ -119,6 +128,9 @@ projects[imagecache][version] = "2.0-beta10"
 
 projects[imagecache_profiles][subdir] = "contrib"
 projects[imagecache_profiles][version] = "1.3"
+
+projects[imagefield][subdir] = "contrib"
+projects[imagefield][version] = "3.7"
 
 projects[insert][subdir] = "contrib"
 projects[insert][version] = "1.0"
@@ -224,6 +236,9 @@ projects[spaces][version] = "3.1"
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
+projects[talk][subdir] = "contrib"
+projects[talk][subdir] = "1.6"
+
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.15"
 
@@ -262,17 +277,21 @@ projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.3"
 
 ; Custom modules
-projects[litecal][subdir] = "custom"
 projects[litecal][location] = "http://featureserver.phase2technology.com/fserver"
 projects[litecal][version] = "1.0-alpha5"
+projects[litecal][location][download][type] = "git"
+projects[litecal][download][url] = "git://github.com/phase2/litecal.git"
 
 projects[feedapi2feeds][subdir] = "custom"
-projects[feedapi2feeds][location] = "http://featureserver.phase2technology.com/fserver"
-projects[feedapi2feeds][version] = "1.0-alpha1"
+projects[feedapi2feeds][type] = "module"
+projects[feedapi2feeds][location][download][type] = "git"
+projects[feedapi2feeds][download][url] = "git://github.com/phase2/feedapi2feeds.git"
 
 projects[xref][subdir] = "custom"
 projects[xref][location] = "http://featureserver.phase2technology.com/fserver"
 projects[xref][version] = "1.0-alpha2"
+projects[xref][location][download][type] = "git"
+projects[xref][download][url] = "git://github.com/phase2/xref.git"
 
 ; Development modules
 projects[coder][subdir] = "developer"
@@ -297,12 +316,10 @@ projects[upgrade_status][subdir] = "developer"
 ;  ===================================
 ; projects[atrium_features][location] = "http://featureserver.phase2technology.com/fserver"
 ; projects[atrium_features][version] = "1.0-alpha11"
-projects[atrium_features][subdir] = "atrium_features"
 projects[atrium_features][type] = "module"
 projects[atrium_features][download][type] = "git"
 projects[atrium_features][download][url] = "git://github.com/markwk/atrium_features.git"
 
-projects[lc_features][subdir] = "lc_features"
 projects[lc_features][type] = "module"
 projects[lc_features][download][type] = "git"
 projects[lc_features][download][url] = "git://github.com/markwk/lc_features.git"
@@ -320,14 +337,9 @@ projects[l10n_client][subdir] = "l10n"
 projects[l10n_client][version] = "1.7"
 
 projects[l10n_update][subdir] = "l10n"
-projects[l10n_update][location] = "http://featureserver.phase2technology.com/fserver"
-projects[l10n_update][version] = "1.0-alpha1"
-
-projects[languageicons][subdir] = "l10n"
-projects[languageicons][version] = "2.0"
-
-projects[i18n][subdir] = "l10n"
-projects[i18n][version] = "1.9"
+projects[l10n_update][type] = "module"
+projects[l10n_update][location][download][type] = "git"
+projects[l10n_update][download][url] = "git://github.com/phase2/l10n_update.git"
 
 ;  ===================================
 ; Performance Additions
@@ -386,8 +398,8 @@ projects[rubik][type] = "theme"
 projects[rubik][version] = "3.0-beta2"
 
 projects[ginkgo][type] = "theme"
-projects[ginkgo][location] = "http://featureserver.phase2technology.com/fserver"
-projects[ginkgo][version] = "1.0-alpha10"
+projects[ginkgo][location][download][type] = "git"
+projects[ginkgo][download][url] = "git://github.com/phase2/ginkgo.git"
 
 ; Libraries
 libraries[jquery_ui][download][type] = "get"
@@ -412,10 +424,3 @@ libraries[phpmailer][directory_name] = "phpmailer"
 ; libraries[translations][download][url] = "https://translate.openatrium.com/sites/translate.openatrium.com/files/atrium-installer-beta9.tar.gz"
 ; libraries[translations][directory_name] = "translations"
 ; libraries[translations][destination] = "."
-
-; =======================
-; Profile 
-; =======================
-projects[edu_oa_profile][type] = "profile"
-projects[edu_oa_profile][download][type] = "git"
-projects[edu_oa_profile][download][url] = "git://github.com/markwk/edu_oa_profile.git"
