@@ -416,6 +416,6 @@ libraries[phpmailer][directory_name] = "phpmailer"
 ; =======================
 ; Profile 
 ; =======================
-projects[edu_openatrium][type] = "profile"
-projects[edu_openatrium][download][type] = "git"
-projects[edu_openatrium][download][url] = "git://github.com/markwk/edu_openatrium.git"
+projects[edu_oa_profile][type] = "profile"
+projects[edu_oa_profile][download][type] = "git"
+projects[edu_oa_profile][download][url] = "git://github.com/markwk/edu_oa_profile.git"
