@@ -22,9 +22,6 @@ projects[openatrium][download][url] = "git://github.com/markwk/openatrium.git"
 projects[admin][subdir] = "contrib"
 projects[admin][version] = "2.0"
 
-projects[admin_menu][subdir] = "contrib"
-projects[admin_menu][version] = "1.6"
-
 projects[apachesolr][subdir] = "contrib"
 projects[apachesolr][version] = "1.2"
 
@@ -93,7 +90,7 @@ projects[designkit][version] = "1.0-beta1"
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.1"
 
-projects[emfield][subdir] = "media"
+projects[emfield][subdir] = "contrib"
 projects[emfield][version] = "2.4"
 
 projects[features][subdir] = "contrib"
@@ -101,6 +98,9 @@ projects[features][version] = "1.0"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "1.0-beta10"
+
+projects[filefield][subdir] = "contrib"
+projects[filefield][version] = "3.9"
 
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.2"
@@ -162,10 +162,10 @@ projects[mailhandler][version] = "1.11"
 projects[markdown][subdir] = "contrib"
 projects[markdown][version] = "1.2"
 
-projects[media_youku][subdir] = "media"
+projects[media_youku][subdir] = "contrib"
 projects[media_youku][version] = "1.0"
 
-projects[media_tudou][subdir] = "media"
+projects[media_tudou][subdir] = "contrib"
 projects[media_tudou][version] = "1.0"
 
 projects[media_ku6][type] = "module"
@@ -173,10 +173,10 @@ projects[media_ku6][download][type] = "git"
 projects[media_ku6][download][url] = "git://github.com/markwk/media_ku6.git"
 projects[media_ku6][subdir] = "contrib"
 
-projects[media_ted][subdir] = "media"
+projects[media_ted][subdir] = "contrib"
 projects[media_ted][version] = "1.x-dev"
 
-projects[media_youtube][subdir] = "media"
+projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][version] = "1.3"
 
 projects[messaging][subdir] = "contrib"
@@ -215,9 +215,6 @@ projects[purl][version] = "1.0-beta13"
 projects[quiz][subdir] = "contrib"
 projects[quiz][version] = "4.0"
 
-projects[realname][subdir] = "contrib"
-projects[realname][version] = "1.3"
-
 projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.5"
 
@@ -237,7 +234,7 @@ projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
 projects[talk][subdir] = "contrib"
-projects[talk][subdir] = "1.6"
+projects[talk][version] = "1.6"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.15"
@@ -247,9 +244,6 @@ projects[transliteration][version] = "3.0"
 
 projects[ucreate][subdir] = "contrib"
 projects[ucreate][version] = "1.0-beta4"
-
-projects[user_relationships][subdir] = "contrib"
-projects[user_relationships][version] = "1.0"
 
 projects[unique_avatar][subdir] = "contrib"
 projects[unique_avatar][version] = "1.0-rc1"
@@ -279,17 +273,17 @@ projects[wysiwyg][version] = "2.3"
 ; Custom modules
 projects[litecal][type] = "module"
 projects[litecal][subdir] = "custom"
-projects[litecal][location][download][type] = "git"
+projects[litecal][download][type] = "git"
 projects[litecal][download][url] = "git://github.com/phase2/litecal.git"
 
 projects[feedapi2feeds][type] = "module"
 projects[feedapi2feeds][subdir] = "custom"
-projects[feedapi2feeds][location][download][type] = "git"
-projects[feedapi2feeds][download][url] = "git://github.com/phase2/feedapi2feeds.git"
+projects[feedapi2feeds][download][type] = "git"
+projects[feedapi2feeds][download][url] = "git://github.com/phase2/FeedAPI2Feeds.git"
 
 projects[xref][type] = "module"
 projects[xref][subdir] = "custom"
-projects[xref][location][download][type] = "git"
+projects[xref][download][type] = "git"
 projects[xref][download][url] = "git://github.com/phase2/xref.git"
 
 ; Development modules
@@ -311,17 +305,6 @@ projects[simpletest][download][revision] = "DRUPAL-6--2:2010-01-27"
 projects[upgrade_status][subdir] = "developer"
 
 ;  ===================================
-; Features
-;  ===================================
-projects[atrium_features][type] = "module"
-projects[atrium_features][download][type] = "git"
-projects[atrium_features][download][url] = "git://github.com/markwk/atrium_features.git"
-
-projects[lc_features][type] = "module"
-projects[lc_features][download][type] = "git"
-projects[lc_features][download][url] = "git://github.com/markwk/lc_features.git"
-
-;  ===================================
 ; l10n
 ;  ===================================
 projects[core_translation][subdir] = "l10n"
@@ -335,7 +318,7 @@ projects[l10n_client][version] = "1.7"
 
 projects[l10n_update][subdir] = "l10n"
 projects[l10n_update][type] = "module"
-projects[l10n_update][location][download][type] = "git"
+projects[l10n_update][download][type] = "git"
 projects[l10n_update][download][url] = "git://github.com/phase2/l10n_update.git"
 
 ;  ===================================
@@ -386,8 +369,9 @@ projects[css_emimage][version] = "2.1"
 projects[javascript_aggregator][subdir] = "performance"
 projects[javascript_aggregator][version] = "1.x-dev" 
 
-
+;  ===================================
 ; Themes
+;  ===================================
 projects[tao][type] = "theme"
 projects[tao][version] = "3.2"
 
@@ -395,10 +379,12 @@ projects[rubik][type] = "theme"
 projects[rubik][version] = "3.0-beta2"
 
 projects[ginkgo][type] = "theme"
-projects[ginkgo][location][download][type] = "git"
-projects[ginkgo][download][url] = "git://github.com/phase2/ginkgo.git"
+projects[ginkgo][download][type] = "git"
+projects[ginkgo][download][url] = "git://github.com/markwk/ginkgo.git"
 
+;  ===================================
 ; Libraries
+;  ===================================
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
 libraries[jquery_ui][directory_name] = "jquery.ui"
@@ -417,7 +403,18 @@ libraries[phpmailer][download][url] = "http://kent.dl.sourceforge.net/project/ph
 libraries[phpmailer][directory_name] = "phpmailer"
 
 ; Translations for openatrium install profile
-libraries[translations][download][type] = "get"
-libraries[translations][download][url] = "https://translate.openatrium.com/sites/translate.openatrium.com/files/atrium-installer-beta9.tar.gz"
-libraries[translations][directory_name] = "translations"
-libraries[translations][destination] = "."
+; libraries[translations][download][type] = "get"
+; libraries[translations][download][url] = "https://translate.openatrium.com/sites/translate.openatrium.com/files/atrium-installer-beta9.tar.gz"
+; libraries[translations][directory_name] = "translations"
+; libraries[translations][destination] = "."
+
+;  ===================================
+; Features
+;  ===================================
+projects[atrium_features][type] = "module"
+projects[atrium_features][download][type] = "git"
+projects[atrium_features][download][url] = "git://github.com/markwk/atrium_features.git"
+
+projects[lc_features][type] = "module"
+projects[lc_features][download][type] = "git"
+projects[lc_features][download][url] = "git://github.com/markwk/lc_features.git"
