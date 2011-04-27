@@ -55,7 +55,7 @@ projects[casetracker][subdir] = "contrib"
 projects[casetracker][version] = "1.0-beta9"
 
 projects[cck][subdir] = "contrib"
-projects[cck][version] = "2.8"
+projects[cck][version] = "2.9"
 
 projects[chart][subdir] = "contrib"
 projects[chart][version] = "1.3"
@@ -71,6 +71,9 @@ projects[computed_field][version] = "1.0-beta5"
 
 projects[content_profile][subdir] = "contrib"
 projects[content_profile][version] = "1.0"
+
+projects[content_taxonomy][subdir] = "contrib"
+projects[content_taxonomy][version] = "1.0-rc2"
 
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.0"
@@ -147,8 +150,11 @@ projects[job_scheduler][version] = "1.0-beta3"
 projects[jquery_ui][subdir] = "contrib"
 projects[jquery_ui][version] = "1.4"
 
+projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = "2.0-alpha1"
+
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "1.0-alpha1"
+projects[libraries][version] = "1.0"
 
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
@@ -188,6 +194,9 @@ projects[multistep][version] = "1.5"
 projects[nodeformcols][subdir] = "contrib"
 projects[nodeformcols][version] = "1.6"
 
+projects[node_export][subdir] = "contrib"
+projects[node_export][version] = "2.24"
+
 projects[notifications][subdir] = "contrib"
 projects[notifications][version] = "2.3"
 
@@ -196,6 +205,9 @@ projects[notifications_team][version] = "2.1-beta8"
 
 projects[og][subdir] = "contrib"
 projects[og][version] = "2.1"
+
+projects[og_reg_keys][subdir] = "contrib"
+projects[og_reg_keys][version] = "1.4"
 
 projects[outline_designer][subdir] = contrib
 projects[outline_designer][version] = "1.3"
@@ -230,6 +242,9 @@ projects[site_verify][version] = "1.0"
 projects[spaces][subdir] = "contrib"
 projects[spaces][version] = "3.1"
 
+projects[stringoverrides][subdir] = "contrib"
+projects[stringoverrides][version] = "1.8"
+
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
@@ -239,8 +254,14 @@ projects[talk][version] = "1.6"
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.15"
 
+projects[tipsy][subdir] = "contrib"
+projects[tipsy][version] = "1.1"
+
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0"
+
+projects[typogrify][subdir] = "contrib"
+projects[typogrify][version] = "1.0"
 
 projects[ucreate][subdir] = "contrib"
 projects[ucreate][version] = "1.0-beta4"
@@ -251,6 +272,9 @@ projects[unique_avatar][version] = "1.0-rc1"
 projects[uuid][subdir] = "contrib"
 projects[uuid][version] = "1.0-beta2"
 
+projects[uuid_features][subdir] = "contrib"
+projects[uuid_features][version] = "1.0-alpha1"
+
 projects[views][subdir] = "contrib"
 projects[views][type] = "module"
 projects[views][version] = "2.12"
@@ -260,6 +284,12 @@ projects[views][patch][] = "http://drupal.org/files/issues/views-static-cache-re
 projects[views][patch][] = "http://cloud.github.com/downloads/developmentseed/atrium_features/views2_simple_translatables.patch"
 ; http://drupal.org/node/789674#comment-3230930
 projects[views][patch][] = "http://drupal.org/files/issues/789674-5_vocabulary_module.patch"
+
+projects[views_bulk_operations][subdir] = "contrib"
+projects[views_bulk_operations][version] = "1.10"
+
+projects[vertical_tabs][subdir] = "contrib"
+projects[vertical_tabs][version] = "1.0-rc1"
 
 projects[votingapi][subdir] = "contrib"
 projects[votingapi][version] = "2.3"
