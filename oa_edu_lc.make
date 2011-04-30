@@ -22,6 +22,9 @@ projects[openatrium][download][url] = "git://github.com/markwk/openatrium.git"
 projects[admin][subdir] = "contrib"
 projects[admin][version] = "2.0"
 
+projects[advuser][subdir] = "contrib"
+projects[advuser][version] = "2.3"
+
 projects[apachesolr][subdir] = "contrib"
 projects[apachesolr][version] = "1.2"
 
@@ -36,6 +39,9 @@ libraries[SolrPhpClient][destination] = "modules/contrib/apachesolr"
 projects[autoload][subdir] = "contrib"
 projects[autoload][version] = "2.0"
 
+projects[auto_nodetitle][subdir] = "contrib"
+projects[auto_nodetitle][version] = "1.2"
+
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.4"
 
@@ -44,9 +50,6 @@ projects[better_exposed_filters][version] = "1.x-dev"
 
 projects[boxes][subdir] = "contrib"
 projects[boxes][version] = "1.0"
-
-projects[bowob][subdir] = "social"
-projects[bowob][version] = "9.0"
 
 projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "2.2"
@@ -83,6 +86,9 @@ projects[crayon][version] = "1.0-beta2"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.8"
+
+projects[data][subdir] = "contrib"
+projects[data][version] = "1.0-alpha14"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.7"
@@ -159,6 +165,9 @@ projects[libraries][version] = "1.0"
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
 
+projects[logintoboggan][subdir] = "contrib"
+projects[logintoboggan][version] = "1.9"
+
 projects[mailcomment][subdir] = "contrib"
 projects[mailcomment][version] = "1.0"
 
@@ -226,6 +235,9 @@ projects[purl][version] = "1.0-beta13"
 
 projects[quiz][subdir] = "contrib"
 projects[quiz][version] = "4.0"
+
+projects[realname][subdir] = "contrib"
+projects[realname][version] = "1.4"
 
 projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.5"
@@ -432,6 +444,10 @@ libraries[phpmailer][download][type] = "get"
 libraries[phpmailer][download][url] = "http://kent.dl.sourceforge.net/project/phpmailer/phpmailer%20for%20php5_6/PHPMailer%20v5.1/PHPMailer_v5.1.tar.gz"
 libraries[phpmailer][directory_name] = "phpmailer"
 
+libraries[openlayers][download][type] = "get"
+libraries[openlayers][download][url] = "http://nodeload.github.com/developmentseed/openlayers_slim/tarball/v1.8"
+libraries[openlayers][directory_name] = "openlayers"
+
 ; Translations for openatrium install profile
 ; libraries[translations][download][type] = "get"
 ; libraries[translations][download][url] = "https://translate.openatrium.com/sites/translate.openatrium.com/files/atrium-installer-beta9.tar.gz"
@@ -444,6 +460,11 @@ libraries[phpmailer][directory_name] = "phpmailer"
 projects[atrium_features][type] = "module"
 projects[atrium_features][download][type] = "git"
 projects[atrium_features][download][url] = "git://github.com/markwk/atrium_features.git"
+
+projects[atrium_reader][type] = "module"
+projects[atrium_reader][download][type] = "git"
+projects[atrium_reader][download][url] = "git://github.com/phase2/atrium_reader.git"
+
 
 projects[lc_features][type] = "module"
 projects[lc_features][download][type] = "git"
