@@ -465,7 +465,10 @@ projects[atrium_reader][type] = "module"
 projects[atrium_reader][download][type] = "git"
 projects[atrium_reader][download][url] = "git://github.com/phase2/atrium_reader.git"
 
-
 projects[lc_features][type] = "module"
 projects[lc_features][download][type] = "git"
 projects[lc_features][download][url] = "git://github.com/markwk/lc_features.git"
+
+projects[words2words][type] = "module"
+projects[words2words][download][type] = "git"
+projects[words2words][download][url] = "git://github.com/markwk/words2words.git"
