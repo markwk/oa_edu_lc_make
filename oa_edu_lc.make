@@ -48,6 +48,9 @@ projects[backup_migrate][version] = "2.4"
 projects[better_exposed_filters][subdir] = "contrib"
 projects[better_exposed_filters][version] = "1.x-dev"
 
+projects[better_formats][subdir] = "contrib"
+projects[better_formats][version] = "1.2"
+
 projects[boxes][subdir] = "contrib"
 projects[boxes][version] = "1.0"
 
