@@ -418,6 +418,57 @@ projects[javascript_aggregator][subdir] = "performance"
 projects[javascript_aggregator][version] = "1.x-dev" 
 
 ;  ===================================
+; OSSO Provider & Relaying
+;  ===================================
+projects[drupal_queue][version] = "1.1"
+projects[drupal_queue][subdir] = "osso"
+
+projects[keyauth][type] = "module"
+projects[keyauth][subdir] = "osso"
+projects[keyauth][download][type] = "git"
+projects[keyauth][download][url] = "git://github.com/developmentseed/keyauth.git"
+
+projects[openid_provider][type] = "module"
+projects[openid_provider][subdir] = "osso"
+projects[openid_provider][download][type] = "cvs"
+projects[openid_provider][download][module] = "contributions/modules/openid_provider"
+projects[openid_provider][download][revision] = "DRUPAL-6--1:2010-03-02"
+; http://drupal.org/node/621956#comment-2665966
+projects[openid_provider][patch][] = "http://drupal.org/files/issues/621956-13_openid_provider_form.patch"
+; http://drupal.org/node/810784
+projects[openid_provider][patch][] = "http://drupal.org/files/issues/openid_provider-slow_association.patch"
+
+projects[openid_provider_sso][type] = "module"
+projects[openid_provider_sso][subdir] = "osso"
+projects[openid_provider_sso][download][type] = "git"
+projects[openid_provider_sso][download][url] = "git://github.com/developmentseed/openid_provider_sso.git"
+
+projects[openid_sso][type] = "module"
+projects[openid_sso][subdir] = "osso"
+projects[openid_sso][download][type] = "git"
+projects[openid_sso][download][url] = "git://github.com/developmentseed/openid_sso.git"
+
+projects[push_hub][type] = "module"
+projects[push_hub][subdir] = "osso"
+projects[push_hub][download][type] = "git"
+projects[push_hub][download][url] = "git://github.com/developmentseed/push_hub.git"
+
+projects[xrds_simple][subdir] = "osso"
+projects[xrds_simple][version] = "1.0"
+
+; osso_provider feature
+projects[osso_provider][type] = "module"
+projects[osso_provider][subdir] = "osso"
+projects[osso_provider][download][type] = "git"
+projects[osso_provider][download][url] = "https://github.com/developmentseed/osso_provider.git"
+
+; osso_relying feature
+projects[osso_relying][type] = "module"
+projects[osso_relying][subdir] = "osso"
+projects[osso_relying][download][type] = "git"
+projects[osso_relying][download][url] = "https://github.com/developmentseed/osso_relying.git"
+
+;  ===================================
 ; Themes
 ;  ===================================
 projects[tao][type] = "theme"
