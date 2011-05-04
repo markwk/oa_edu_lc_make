@@ -300,6 +300,9 @@ projects[views][patch][] = "http://cloud.github.com/downloads/developmentseed/at
 ; http://drupal.org/node/789674#comment-3230930
 projects[views][patch][] = "http://drupal.org/files/issues/789674-5_vocabulary_module.patch"
 
+projects[views_bonus][subdir] = "contrib"
+projects[views_bonus][version] = "1.1"
+
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "1.10"
 
