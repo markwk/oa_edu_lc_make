@@ -36,6 +36,9 @@ libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com
 libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
 libraries[SolrPhpClient][destination] = "modules/contrib/apachesolr"
 
+projects[appbar][subdir] = "contrib"
+projects[appbar][version] = "2.x-dev"
+
 projects[autoload][subdir] = "contrib"
 projects[autoload][version] = "2.0"
 
@@ -200,6 +203,9 @@ projects[media_youtube][version] = "1.3"
 projects[messaging][subdir] = "contrib"
 projects[messaging][version] = "2.4"
 
+projects[mollom][subdir] = "contrib"
+projects[mollom][version] = 1.15
+
 projects[multistep][subdir] = "contrib"
 projects[multistep][version] = "1.5"
 
@@ -241,6 +247,9 @@ projects[quiz][version] = "4.0"
 
 projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.4"
+
+projects[readonlymode][subdir] = "contrib"
+projects[readonlymode][version] = "1.0"
 
 projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.5"
@@ -372,29 +381,41 @@ projects[l10n_update][download][url] = "git://github.com/phase2/l10n_update.git"
 ;  ===================================
 ; Performance Additions
 ;  ===================================
-projects[cacherouter][subdir] = "performance"
-projects[cacherouter][version] = "1.0-rc1"
+projects[ajaxblocks][subdir] = "performance"
+projects[ajaxblocks][version] = "1.2"
 
 projects[boost][subdir] = "performance"
 projects[boost][version] = "1.x-dev"
 
-projects[dbtuner][subdir] = "performance"
-projects[dbtuner][version] = "1.x-dev"
-
 projects[cache][subdir] = "performance"
 projects[cache][version] = "1.x-dev"
 
-projects[filefield_nginx_progress][subdir] = "performance"
-projects[filefield_nginx_progress][version] = "1.4"
+projects[cacherouter][subdir] = "performance"
+projects[cacherouter][version] = "1.0-rc1"
+
+projects[css_emimage][subdir] = "performance"
+projects[css_emimage][version] = "2.1"
+
+projects[dbtuner][subdir] = "performance"
+projects[dbtuner][version] = "1.x-dev"
 
 projects[elysia_cron][subdir] = "performance"
 projects[elysia_cron][version] = "1.x-dev"
 
-projects[ajaxblocks][subdir] = "performance"
-projects[ajaxblocks][version] = "1.2"
+projects[expire][subdir] = "performance"
+projects[expire][version] = "1.x-dev"
+
+projects[filefield_nginx_progress][subdir] = "performance"
+projects[filefield_nginx_progress][version] = "1.4"
 
 projects[imageinfo_cache][subdir] = "performance"
 projects[imageinfo_cache][version] = "1.x-dev"
+
+projects[javascript_aggregator][subdir] = "performance"
+projects[javascript_aggregator][version] = "1.x-dev"
+
+projects[nginx_accel_redirect][subdir] = "performance"
+projects[nginx_accel_redirect][version] = "1.0"
 
 projects[session_expire][subdir] = "performance"
 projects[session_expire][version] = "1.x-dev"
@@ -402,20 +423,11 @@ projects[session_expire][version] = "1.x-dev"
 projects[securesite][subdir] = "performance"
 projects[securesite][version] = "2.4"
 
-projects[expire][subdir] = "performance"
-projects[expire][version] = "1.x-dev"
-
-projects[authcache][subdir] = "performance"
-projects[authcache][version] = "1.x-dev"
+projects[variable_clean][subdir] = "performance"
+projects[variable_clean][version] = "1.x-dev"
 
 projects[views_content_cache][subdir] = "performance"
 projects[views_content_cache][version] = "2.x-dev"
-
-projects[css_emimage][subdir] = "performance"
-projects[css_emimage][version] = "2.1"
-
-projects[javascript_aggregator][subdir] = "performance"
-projects[javascript_aggregator][version] = "1.x-dev" 
 
 ;  ===================================
 ; OSSO Provider & Relaying
@@ -500,10 +512,6 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[phpmailer][download][type] = "get"
 libraries[phpmailer][download][url] = "http://kent.dl.sourceforge.net/project/phpmailer/phpmailer%20for%20php5_6/PHPMailer%20v5.1/PHPMailer_v5.1.tar.gz"
 libraries[phpmailer][directory_name] = "phpmailer"
-
-libraries[openlayers][download][type] = "get"
-libraries[openlayers][download][url] = "http://nodeload.github.com/developmentseed/openlayers_slim/tarball/v1.8"
-libraries[openlayers][directory_name] = "openlayers"
 
 ; Translations for openatrium install profile
 ; libraries[translations][download][type] = "get"
